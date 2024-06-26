@@ -53,3 +53,48 @@ When using the GitHub logos, be sure to follow the [GitHub logo guidelines](http
 ## Thanks :purple_heart:
 
 Thanks for all your contributions and efforts towards improving the GitHub documentation. We thank you for being part of our :sparkles: community :sparkles:!
+
+
+Code of Conduct
+
+I have read and agree to the code of conduct for the GitHub Docs project.
+
+Which article on docs.github.com is affected?
+
+For the endpoints and permissions specified in REST API endpoints for teams (https://docs.github.com/en/rest/teams/teams? apiVersion=2022-11-28#add-or-update-team-repository-permissions), they are not recorded on the following pages:
+
+Https://docs.github.com/en/rest/authentication/endpoints-available-for-github-app-installation-access S-tokens? apiVersion=2022-11-28
+
+Https://docs.github.com/en/rest/authentication/endpoints-available-for-github-app-user-access-tokens ? apiVersion=2022-11-28
+
+Https://docs.github.com/en/rest/authentication/endpoints-available-for-fine-grained-personal-access- Tokens? apiVersion=2022-11-28
+
+Https://docs.github.com/en/rest/authentication/permissions-required-for-github-apps? apiVersion=2022-11-28
+
+Https://docs.github.com/en/rest/authentication/permissions-required-for-fine-grained-personal-access -Tokens? apiVersion=2022-11-28
+
+For example, if you search (I guess it's old?) Including {team_slug} and some other endpoints:
+
+/Orgs/{org}/teams/{team_slug}
+
+/Orgs/{org}/teams/{team_slug}/projects
+
+/Orgs/{org}/teams/{team_slug}/projects/{project_id}
+
+/Orgs/{org}/teams/{team_slug}/repos
+
+/Orgs/{org}/teams/{team_slug}/repos/{owner}/{repo}
+
+/Orgs/{org}/teams/{team_slug}/teams
+
+/User/teams
+
+They don't appear on those pages.
+
+What changes do you suggest?
+
+Record them, because some of them use fine-grained personal access tokens, some don't use them, some use them with GitHub application installation access tokens, and some don't use them.
+
+This is really confusing, because it is crucial that the ability to create repo and assign teams with admin permissions seems to be limited to PUT /orgs/{org}/teams/{team_slug}/repos/{owner}/{re Po} is obtained with personal access tokens (classic and fine-grained), but it is not available for GitHub applications installed in the organization, which seems to be a big gap and problem for organizations that restrict PAT access and want to automatically perform operations on GitHub through GitHub applications. .
+
+In addition, using team_id to create a new repo only grants the team read access, which is useless (see: github/rest-api-description#3689).
