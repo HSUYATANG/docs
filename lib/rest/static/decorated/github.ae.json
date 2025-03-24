@@ -26619,13 +26619,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -26699,13 +26699,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -26778,13 +26778,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       },
       {
         "name": "per_page",
@@ -26878,13 +26878,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -26957,13 +26957,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       },
       {
         "name": "filter",
@@ -27072,13 +27072,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -27151,13 +27151,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -27230,13 +27230,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -27309,13 +27309,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -64748,154 +64748,6 @@
         "payload": "<pre><code class=\"hljs language-json\">{\n  <span class=\"hljs-attr\">\"id\"</span>: <span class=\"hljs-number\">1296269</span>,\n  <span class=\"hljs-attr\">\"node_id\"</span>: <span class=\"hljs-string\">\"MDEwOlJlcG9zaXRvcnkxMjk2MjY5\"</span>,\n  <span class=\"hljs-attr\">\"name\"</span>: <span class=\"hljs-string\">\"Hello-World\"</span>,\n  <span class=\"hljs-attr\">\"full_name\"</span>: <span class=\"hljs-string\">\"octocat/Hello-World\"</span>,\n  <span class=\"hljs-attr\">\"owner\"</span>: {\n    <span class=\"hljs-attr\">\"login\"</span>: <span class=\"hljs-string\">\"octocat\"</span>,\n    <span class=\"hljs-attr\">\"id\"</span>: <span class=\"hljs-number\">1</span>,\n    <span class=\"hljs-attr\">\"node_id\"</span>: <span class=\"hljs-string\">\"MDQ6VXNlcjE=\"</span>,\n    <span class=\"hljs-attr\">\"avatar_url\"</span>: <span class=\"hljs-string\">\"https://github.com/images/error/octocat_happy.gif\"</span>,\n    <span class=\"hljs-attr\">\"gravatar_id\"</span>: <span class=\"hljs-string\">\"\"</span>,\n    <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat\"</span>,\n    <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat\"</span>,\n    <span class=\"hljs-attr\">\"followers_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/followers\"</span>,\n    <span class=\"hljs-attr\">\"following_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/following{/other_user}\"</span>,\n    <span class=\"hljs-attr\">\"gists_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/gists{/gist_id}\"</span>,\n    <span class=\"hljs-attr\">\"starred_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/starred{/owner}{/repo}\"</span>,\n    <span class=\"hljs-attr\">\"subscriptions_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/subscriptions\"</span>,\n    <span class=\"hljs-attr\">\"organizations_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/orgs\"</span>,\n    <span class=\"hljs-attr\">\"repos_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/repos\"</span>,\n    <span class=\"hljs-attr\">\"events_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/events{/privacy}\"</span>,\n    <span class=\"hljs-attr\">\"received_events_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/received_events\"</span>,\n    <span class=\"hljs-attr\">\"type\"</span>: <span class=\"hljs-string\">\"User\"</span>,\n    <span class=\"hljs-attr\">\"site_admin\"</span>: <span class=\"hljs-literal\">false</span>\n  },\n  <span class=\"hljs-attr\">\"private\"</span>: <span class=\"hljs-literal\">false</span>,\n  <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World\"</span>,\n  <span class=\"hljs-attr\">\"description\"</span>: <span class=\"hljs-string\">\"This your first repo!\"</span>,\n  <span class=\"hljs-attr\">\"fork\"</span>: <span class=\"hljs-literal\">false</span>,\n  <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World\"</span>,\n  <span class=\"hljs-attr\">\"archive_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/{archive_format}{/ref}\"</span>,\n  <span class=\"hljs-attr\">\"assignees_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/assignees{/user}\"</span>,\n  <span class=\"hljs-attr\">\"blobs_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/git/blobs{/sha}\"</span>,\n  <span class=\"hljs-attr\">\"branches_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/branches{/branch}\"</span>,\n  <span class=\"hljs-attr\">\"collaborators_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/collaborators{/collaborator}\"</span>,\n  <span class=\"hljs-attr\">\"comments_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/comments{/number}\"</span>,\n  <span class=\"hljs-attr\">\"commits_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/commits{/sha}\"</span>,\n  <span class=\"hljs-attr\">\"compare_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/compare/{base}...{head}\"</span>,\n  <span class=\"hljs-attr\">\"contents_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/contents/{+path}\"</span>,\n  <span class=\"hljs-attr\">\"contributors_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/contributors\"</span>,\n  <span class=\"hljs-attr\">\"deployments_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/deployments\"</span>,\n  <span class=\"hljs-attr\">\"downloads_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/downloads\"</span>,\n  <span class=\"hljs-attr\">\"events_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/events\"</span>,\n  <span class=\"hljs-attr\">\"forks_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/forks\"</span>,\n  <span class=\"hljs-attr\">\"git_commits_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/git/commits{/sha}\"</span>,\n  <span class=\"hljs-attr\">\"git_refs_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/git/refs{/sha}\"</span>,\n  <span class=\"hljs-attr\">\"git_tags_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/git/tags{/sha}\"</span>,\n  <span class=\"hljs-attr\">\"git_url\"</span>: <span class=\"hljs-string\">\"git:github.com/octocat/Hello-World.git\"</span>,\n  <span class=\"hljs-attr\">\"issue_comment_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/issues/comments{/number}\"</span>,\n  <span class=\"hljs-attr\">\"issue_events_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/issues/events{/number}\"</span>,\n  <span class=\"hljs-attr\">\"issues_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/issues{/number}\"</span>,\n  <span class=\"hljs-attr\">\"keys_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/keys{/key_id}\"</span>,\n  <span class=\"hljs-attr\">\"labels_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/labels{/name}\"</span>,\n  <span class=\"hljs-attr\">\"languages_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/languages\"</span>,\n  <span class=\"hljs-attr\">\"merges_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/merges\"</span>,\n  <span class=\"hljs-attr\">\"milestones_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/milestones{/number}\"</span>,\n  <span class=\"hljs-attr\">\"notifications_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/notifications{?since,all,participating}\"</span>,\n  <span class=\"hljs-attr\">\"pulls_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/pulls{/number}\"</span>,\n  <span class=\"hljs-attr\">\"releases_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/releases{/id}\"</span>,\n  <span class=\"hljs-attr\">\"ssh_url\"</span>: <span class=\"hljs-string\">\"git@github.com:octocat/Hello-World.git\"</span>,\n  <span class=\"hljs-attr\">\"stargazers_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/stargazers\"</span>,\n  <span class=\"hljs-attr\">\"statuses_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/statuses/{sha}\"</span>,\n  <span class=\"hljs-attr\">\"subscribers_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/subscribers\"</span>,\n  <span class=\"hljs-attr\">\"subscription_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/subscription\"</span>,\n  <span class=\"hljs-attr\">\"tags_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/tags\"</span>,\n  <span class=\"hljs-attr\">\"teams_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/teams\"</span>,\n  <span class=\"hljs-attr\">\"trees_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/git/trees{/sha}\"</span>,\n  <span class=\"hljs-attr\">\"clone_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World.git\"</span>,\n  <span class=\"hljs-attr\">\"mirror_url\"</span>: <span class=\"hljs-string\">\"git:git.example.com/octocat/Hello-World\"</span>,\n  <span class=\"hljs-attr\">\"hooks_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/hooks\"</span>,\n  <span class=\"hljs-attr\">\"svn_url\"</span>: <span class=\"hljs-string\">\"https://svn.github.com/octocat/Hello-World\"</span>,\n  <span class=\"hljs-attr\">\"homepage\"</span>: <span class=\"hljs-string\">\"https://github.com\"</span>,\n  <span class=\"hljs-attr\">\"language\"</span>: <span class=\"hljs-literal\">null</span>,\n  <span class=\"hljs-attr\">\"forks_count\"</span>: <span class=\"hljs-number\">9</span>,\n  <span class=\"hljs-attr\">\"stargazers_count\"</span>: <span class=\"hljs-number\">80</span>,\n  <span class=\"hljs-attr\">\"watchers_count\"</span>: <span class=\"hljs-number\">80</span>,\n  <span class=\"hljs-attr\">\"size\"</span>: <span class=\"hljs-number\">108</span>,\n  <span class=\"hljs-attr\">\"default_branch\"</span>: <span class=\"hljs-string\">\"master\"</span>,\n  <span class=\"hljs-attr\">\"open_issues_count\"</span>: <span class=\"hljs-number\">0</span>,\n  <span class=\"hljs-attr\">\"is_template\"</span>: <span class=\"hljs-literal\">false</span>,\n  <span class=\"hljs-attr\">\"topics\"</span>: [\n    <span class=\"hljs-string\">\"octocat\"</span>,\n    <span class=\"hljs-string\">\"atom\"</span>,\n    <span class=\"hljs-string\">\"electron\"</span>,\n    <span class=\"hljs-string\">\"api\"</span>\n  ],\n  <span class=\"hljs-attr\">\"has_issues\"</span>: <span class=\"hljs-literal\">true</span>,\n  <span class=\"hljs-attr\">\"has_projects\"</span>: <span class=\"hljs-literal\">true</span>,\n  <span class=\"hljs-attr\">\"has_wiki\"</span>: <span class=\"hljs-literal\">true</span>,\n  <span class=\"hljs-attr\">\"has_pages\"</span>: <span class=\"hljs-literal\">false</span>,\n  <span class=\"hljs-attr\">\"has_downloads\"</span>: <span class=\"hljs-literal\">true</span>,\n  <span class=\"hljs-attr\">\"archived\"</span>: <span class=\"hljs-literal\">false</span>,\n  <span class=\"hljs-attr\">\"disabled\"</span>: <span class=\"hljs-literal\">false</span>,\n  <span class=\"hljs-attr\">\"visibility\"</span>: <span class=\"hljs-string\">\"public\"</span>,\n  <span class=\"hljs-attr\">\"pushed_at\"</span>: <span class=\"hljs-string\">\"2011-01-26T19:06:43Z\"</span>,\n  <span class=\"hljs-attr\">\"created_at\"</span>: <span class=\"hljs-string\">\"2011-01-26T19:01:12Z\"</span>,\n  <span class=\"hljs-attr\">\"updated_at\"</span>: <span class=\"hljs-string\">\"2011-01-26T19:14:43Z\"</span>,\n  <span class=\"hljs-attr\">\"permissions\"</span>: {\n    <span class=\"hljs-attr\">\"admin\"</span>: <span class=\"hljs-literal\">false</span>,\n    <span class=\"hljs-attr\">\"push\"</span>: <span class=\"hljs-literal\">false</span>,\n    <span class=\"hljs-attr\">\"pull\"</span>: <span class=\"hljs-literal\">true</span>\n  },\n  <span class=\"hljs-attr\">\"template_repository\"</span>: {\n    <span class=\"hljs-attr\">\"id\"</span>: <span class=\"hljs-number\">1296269</span>,\n    <span class=\"hljs-attr\">\"node_id\"</span>: <span class=\"hljs-string\">\"MDEwOlJlcG9zaXRvcnkxMjk2MjY5\"</span>,\n    <span class=\"hljs-attr\">\"name\"</span>: <span class=\"hljs-string\">\"Hello-World-Template\"</span>,\n    <span class=\"hljs-attr\">\"full_name\"</span>: <span class=\"hljs-string\">\"octocat/Hello-World-Template\"</span>,\n    <span class=\"hljs-attr\">\"owner\"</span>: {\n      <span class=\"hljs-attr\">\"login\"</span>: <span class=\"hljs-string\">\"octocat\"</span>,\n      <span class=\"hljs-attr\">\"id\"</span>: <span class=\"hljs-number\">1</span>,\n      <span class=\"hljs-attr\">\"node_id\"</span>: <span class=\"hljs-string\">\"MDQ6VXNlcjE=\"</span>,\n      <span class=\"hljs-attr\">\"avatar_url\"</span>: <span class=\"hljs-string\">\"https://github.com/images/error/octocat_happy.gif\"</span>,\n      <span class=\"hljs-attr\">\"gravatar_id\"</span>: <span class=\"hljs-string\">\"\"</span>,\n      <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat\"</span>,\n      <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat\"</span>,\n      <span class=\"hljs-attr\">\"followers_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/followers\"</span>,\n      <span class=\"hljs-attr\">\"following_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/following{/other_user}\"</span>,\n      <span class=\"hljs-attr\">\"gists_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/gists{/gist_id}\"</span>,\n      <span class=\"hljs-attr\">\"starred_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/starred{/owner}{/repo}\"</span>,\n      <span class=\"hljs-attr\">\"subscriptions_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/subscriptions\"</span>,\n      <span class=\"hljs-attr\">\"organizations_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/orgs\"</span>,\n      <span class=\"hljs-attr\">\"repos_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/repos\"</span>,\n      <span class=\"hljs-attr\">\"events_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/events{/privacy}\"</span>,\n      <span class=\"hljs-attr\">\"received_events_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/users/octocat/received_events\"</span>,\n      <span class=\"hljs-attr\">\"type\"</span>: <span class=\"hljs-string\">\"User\"</span>,\n      <span class=\"hljs-attr\">\"site_admin\"</span>: <span class=\"hljs-literal\">false</span>\n    },\n    <span class=\"hljs-attr\">\"private\"</span>: <span class=\"hljs-literal\">false</span>,\n    <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World-Template\"</span>,\n    <span class=\"hljs-attr\">\"description\"</span>: <span class=\"hljs-string\">\"This your first repo!\"</span>,\n    <span class=\"hljs-attr\">\"fork\"</span>: <span class=\"hljs-literal\">false</span>,\n    <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template\"</span>,\n    <span class=\"hljs-attr\">\"archive_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/{archive_format}{/ref}\"</span>,\n    <span class=\"hljs-attr\">\"assignees_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/assignees{/user}\"</span>,\n    <span class=\"hljs-attr\">\"blobs_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/git/blobs{/sha}\"</span>,\n    <span class=\"hljs-attr\">\"branches_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/branches{/branch}\"</span>,\n    <span class=\"hljs-attr\">\"collaborators_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/collaborators{/collaborator}\"</span>,\n    <span class=\"hljs-attr\">\"comments_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/comments{/number}\"</span>,\n    <span class=\"hljs-attr\">\"commits_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/commits{/sha}\"</span>,\n    <span class=\"hljs-attr\">\"compare_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/compare/{base}...{head}\"</span>,\n    <span class=\"hljs-attr\">\"contents_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/contents/{+path}\"</span>,\n    <span class=\"hljs-attr\">\"contributors_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/contributors\"</span>,\n    <span class=\"hljs-attr\">\"deployments_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/deployments\"</span>,\n    <span class=\"hljs-attr\">\"downloads_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/downloads\"</span>,\n    <span class=\"hljs-attr\">\"events_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/events\"</span>,\n    <span class=\"hljs-attr\">\"forks_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/forks\"</span>,\n    <span class=\"hljs-attr\">\"git_commits_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/git/commits{/sha}\"</span>,\n    <span class=\"hljs-attr\">\"git_refs_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/git/refs{/sha}\"</span>,\n    <span class=\"hljs-attr\">\"git_tags_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/git/tags{/sha}\"</span>,\n    <span class=\"hljs-attr\">\"git_url\"</span>: <span class=\"hljs-string\">\"git:github.com/octocat/Hello-World-Template.git\"</span>,\n    <span class=\"hljs-attr\">\"issue_comment_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/issues/comments{/number}\"</span>,\n    <span class=\"hljs-attr\">\"issue_events_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/issues/events{/number}\"</span>,\n    <span class=\"hljs-attr\">\"issues_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/issues{/number}\"</span>,\n    <span class=\"hljs-attr\">\"keys_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/keys{/key_id}\"</span>,\n    <span class=\"hljs-attr\">\"labels_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/labels{/name}\"</span>,\n    <span class=\"hljs-attr\">\"languages_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/languages\"</span>,\n    <span class=\"hljs-attr\">\"merges_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/merges\"</span>,\n    <span class=\"hljs-attr\">\"milestones_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/milestones{/number}\"</span>,\n    <span class=\"hljs-attr\">\"notifications_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/notifications{?since,all,participating}\"</span>,\n    <span class=\"hljs-attr\">\"pulls_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/pulls{/number}\"</span>,\n    <span class=\"hljs-attr\">\"releases_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/releases{/id}\"</span>,\n    <span class=\"hljs-attr\">\"ssh_url\"</span>: <span class=\"hljs-string\">\"git@github.com:octocat/Hello-World-Template.git\"</span>,\n    <span class=\"hljs-attr\">\"stargazers_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/stargazers\"</span>,\n    <span class=\"hljs-attr\">\"statuses_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/statuses/{sha}\"</span>,\n    <span class=\"hljs-attr\">\"subscribers_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/subscribers\"</span>,\n    <span class=\"hljs-attr\">\"subscription_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/subscription\"</span>,\n    <span class=\"hljs-attr\">\"tags_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/tags\"</span>,\n    <span class=\"hljs-attr\">\"teams_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/teams\"</span>,\n    <span class=\"hljs-attr\">\"trees_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/git/trees{/sha}\"</span>,\n    <span class=\"hljs-attr\">\"clone_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World-Template.git\"</span>,\n    <span class=\"hljs-attr\">\"mirror_url\"</span>: <span class=\"hljs-string\">\"git:git.example.com/octocat/Hello-World-Template\"</span>,\n    <span class=\"hljs-attr\">\"hooks_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World-Template/hooks\"</span>,\n    <span class=\"hljs-attr\">\"svn_url\"</span>: <span class=\"hljs-string\">\"https://svn.github.com/octocat/Hello-World-Template\"</span>,\n    <span class=\"hljs-attr\">\"homepage\"</span>: <span class=\"hljs-string\">\"https://github.com\"</span>,\n    <span class=\"hljs-attr\">\"language\"</span>: <span class=\"hljs-literal\">null</span>,\n    <span class=\"hljs-attr\">\"forks\"</span>: <span class=\"hljs-number\">9</span>,\n    <span class=\"hljs-attr\">\"forks_count\"</span>: <span class=\"hljs-number\">9</span>,\n    <span class=\"hljs-attr\">\"stargazers_count\"</span>: <span class=\"hljs-number\">80</span>,\n    <span class=\"hljs-attr\">\"watchers_count\"</span>: <span class=\"hljs-number\">80</span>,\n    <span class=\"hljs-attr\">\"watchers\"</span>: <span class=\"hljs-number\">80</span>,\n    <span class=\"hljs-attr\">\"size\"</span>: <span class=\"hljs-number\">108</span>,\n    <span class=\"hljs-attr\">\"default_branch\"</span>: <span class=\"hljs-string\">\"master\"</span>,\n    <span class=\"hljs-attr\">\"open_issues\"</span>: <span class=\"hljs-number\">0</span>,\n    <span class=\"hljs-attr\">\"open_issues_count\"</span>: <span class=\"hljs-number\">0</span>,\n    <span class=\"hljs-attr\">\"is_template\"</span>: <span class=\"hljs-literal\">true</span>,\n    <span class=\"hljs-attr\">\"license\"</span>: {\n      <span class=\"hljs-attr\">\"key\"</span>: <span class=\"hljs-string\">\"mit\"</span>,\n      <span class=\"hljs-attr\">\"name\"</span>: <span class=\"hljs-string\">\"MIT License\"</span>,\n      <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/licenses/mit\"</span>,\n      <span class=\"hljs-attr\">\"spdx_id\"</span>: <span class=\"hljs-string\">\"MIT\"</span>,\n      <span class=\"hljs-attr\">\"node_id\"</span>: <span class=\"hljs-string\">\"MDc6TGljZW5zZW1pdA==\"</span>,\n      <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/licenses/mit\"</span>\n    },\n    <span class=\"hljs-attr\">\"topics\"</span>: [\n      <span class=\"hljs-string\">\"octocat\"</span>,\n      <span class=\"hljs-string\">\"atom\"</span>,\n      <span class=\"hljs-string\">\"electron\"</span>,\n      <span class=\"hljs-string\">\"api\"</span>\n    ],\n    <span class=\"hljs-attr\">\"has_issues\"</span>: <span class=\"hljs-literal\">true</span>,\n    <span class=\"hljs-attr\">\"has_projects\"</span>: <span class=\"hljs-literal\">true</span>,\n    <span class=\"hljs-attr\">\"has_wiki\"</span>: <span class=\"hljs-literal\">true</span>,\n    <span class=\"hljs-attr\">\"has_pages\"</span>: <span class=\"hljs-literal\">false</span>,\n    <span class=\"hljs-attr\">\"has_downloads\"</span>: <span class=\"hljs-literal\">true</span>,\n    <span class=\"hljs-attr\">\"archived\"</span>: <span class=\"hljs-literal\">false</span>,\n    <span class=\"hljs-attr\">\"disabled\"</span>: <span class=\"hljs-literal\">false</span>,\n    <span class=\"hljs-attr\">\"visibility\"</span>: <span class=\"hljs-string\">\"public\"</span>,\n    <span class=\"hljs-attr\">\"pushed_at\"</span>: <span class=\"hljs-string\">\"2011-01-26T19:06:43Z\"</span>,\n    <span class=\"hljs-attr\">\"created_at\"</span>: <span class=\"hljs-string\">\"2011-01-26T19:01:12Z\"</span>,\n    <span class=\"hljs-attr\">\"updated_at\"</span>: <span class=\"hljs-string\">\"2011-01-26T19:14:43Z\"</span>,\n    <span class=\"hljs-attr\">\"permissions\"</span>: {\n      <span class=\"hljs-attr\">\"admin\"</span>: <span class=\"hljs-literal\">false</span>,\n      <span class=\"hljs-attr\">\"push\"</span>: <span class=\"hljs-literal\">false</span>,\n      <span class=\"hljs-attr\">\"pull\"</span>: <span class=\"hljs-literal\">true</span>\n    },\n    <span class=\"hljs-attr\">\"allow_rebase_merge\"</span>: <span class=\"hljs-literal\">true</span>,\n    <span class=\"hljs-attr\">\"temp_clone_token\"</span>: <span class=\"hljs-string\">\"ABTLWHOULUVAXGTRYU7OC2876QJ2O\"</span>,\n    <span class=\"hljs-attr\">\"allow_squash_merge\"</span>: <span class=\"hljs-literal\">true</span>,\n    <span class=\"hljs-attr\">\"delete_branch_on_merge\"</span>: <span class=\"hljs-literal\">true</span>,\n    <span class=\"hljs-attr\">\"allow_merge_commit\"</span>: <span class=\"hljs-literal\">true</span>,\n    <span class=\"hljs-attr\">\"subscribers_count\"</span>: <span class=\"hljs-number\">42</span>,\n    <span class=\"hljs-attr\">\"network_count\"</span>: <span class=\"hljs-number\">0</span>\n  }\n}\n</code></pre>"
       }
     ]
-  },
-  {
-    "verb": "put",
-    "requestPath": "/repos/{owner}/{repo}/vulnerability-alerts",
-    "serverUrl": "http(s)://api.{hostname}",
-    "parameters": [
-      {
-        "name": "owner",
-        "in": "path",
-        "required": true,
-        "schema": {
-          "type": "string"
-        },
-        "descriptionHTML": ""
-      },
-      {
-        "name": "repo",
-        "in": "path",
-        "required": true,
-        "schema": {
-          "type": "string"
-        },
-        "descriptionHTML": ""
-      }
-    ],
-    "x-codeSamples": [
-      {
-        "lang": "Shell",
-        "source": "curl \\\n  -X PUT \\\n  -H \"Accept: application/vnd.github.dorian-preview+json\" \\\n  http(s)://api.{hostname}/repos/octocat/hello-world/vulnerability-alerts",
-        "html": "<pre><code class=\"hljs language-shell\">curl \\\n  -X PUT \\\n  -H \"Accept: application/vnd.github.dorian-preview+json\" \\\n  http(s)://api.{hostname}/repos/octocat/hello-world/vulnerability-alerts</code></pre>"
-      },
-      {
-        "lang": "JavaScript",
-        "source": "await octokit.request('PUT /repos/{owner}/{repo}/vulnerability-alerts', {\n  owner: 'octocat',\n  repo: 'hello-world',\n  mediaType: {\n    previews: [\n      'dorian'\n    ]\n  }\n})",
-        "html": "<pre><code class=\"hljs language-javascript\"><span class=\"hljs-keyword\">await</span> octokit.request(<span class=\"hljs-string\">'PUT /repos/{owner}/{repo}/vulnerability-alerts'</span>, {\n  <span class=\"hljs-attr\">owner</span>: <span class=\"hljs-string\">'octocat'</span>,\n  <span class=\"hljs-attr\">repo</span>: <span class=\"hljs-string\">'hello-world'</span>,\n  <span class=\"hljs-attr\">mediaType</span>: {\n    <span class=\"hljs-attr\">previews</span>: [\n      <span class=\"hljs-string\">'dorian'</span>\n    ]\n  }\n})\n</code></pre>"
-      }
-    ],
-    "summary": "Enable vulnerability alerts",
-    "description": "Enables dependency alerts and the dependency graph for a repository. The authenticated user must have admin access to the repository. For more information, see \"[About security alerts for vulnerable dependencies](https://help.github.com/en/articles/about-security-alerts-for-vulnerable-dependencies)\".",
-    "tags": [
-      "repos"
-    ],
-    "operationId": "repos/enable-vulnerability-alerts",
-    "externalDocs": {
-      "description": "API method documentation",
-      "url": "https://docs.github.com/github-ae@latest/rest/reference/repos#enable-vulnerability-alerts"
-    },
-    "x-github": {
-      "githubCloudOnly": false,
-      "enabledForGitHubApps": true,
-      "previews": [
-        {
-          "required": true,
-          "name": "dorian",
-          "note": "Enabling and disabling dependency alerts for a repository using the REST API is currently available for developers to preview. To access these new endpoints during the preview period, you must provide a custom [media type](https://docs.github.com/github-ae@latest/rest/overview/media-types) in the `Accept` header:\n```shell\napplication/vnd.github.dorian-preview+json\n```",
-          "html": "<p>Enabling and disabling dependency alerts for a repository using the REST API is currently available for developers to preview. To access these new endpoints during the preview period, you must provide a custom <a href=\"https://docs.github.com/github-ae@latest/rest/overview/media-types\">media type</a> in the <code>Accept</code> header:</p>\n<pre><code class=\"hljs language-shell\">application/vnd.github.dorian-preview+json</code></pre>"
-        }
-      ],
-      "category": "repos",
-      "subcategory": null
-    },
-    "slug": "enable-vulnerability-alerts",
-    "category": "repos",
-    "categoryLabel": "Repos",
-    "notes": [],
-    "responses": [
-      {
-        "httpStatusCode": "204",
-        "httpStatusMessage": "No Content",
-        "description": "Response"
-      }
-    ],
-    "bodyParameters": [],
-    "descriptionHTML": "<p>Enables dependency alerts and the dependency graph for a repository. The authenticated user must have admin access to the repository. For more information, see \"<a href=\"https://help.github.com/en/articles/about-security-alerts-for-vulnerable-dependencies\">About security alerts for vulnerable dependencies</a>\".</p>"
-  },
-  {
-    "verb": "delete",
-    "requestPath": "/repos/{owner}/{repo}/vulnerability-alerts",
-    "serverUrl": "http(s)://api.{hostname}",
-    "parameters": [
-      {
-        "name": "owner",
-        "in": "path",
-        "required": true,
-        "schema": {
-          "type": "string"
-        },
-        "descriptionHTML": ""
-      },
-      {
-        "name": "repo",
-        "in": "path",
-        "required": true,
-        "schema": {
-          "type": "string"
-        },
-        "descriptionHTML": ""
-      }
-    ],
-    "x-codeSamples": [
-      {
-        "lang": "Shell",
-        "source": "curl \\\n  -X DELETE \\\n  -H \"Accept: application/vnd.github.dorian-preview+json\" \\\n  http(s)://api.{hostname}/repos/octocat/hello-world/vulnerability-alerts",
-        "html": "<pre><code class=\"hljs language-shell\">curl \\\n  -X DELETE \\\n  -H \"Accept: application/vnd.github.dorian-preview+json\" \\\n  http(s)://api.{hostname}/repos/octocat/hello-world/vulnerability-alerts</code></pre>"
-      },
-      {
-        "lang": "JavaScript",
-        "source": "await octokit.request('DELETE /repos/{owner}/{repo}/vulnerability-alerts', {\n  owner: 'octocat',\n  repo: 'hello-world',\n  mediaType: {\n    previews: [\n      'dorian'\n    ]\n  }\n})",
-        "html": "<pre><code class=\"hljs language-javascript\"><span class=\"hljs-keyword\">await</span> octokit.request(<span class=\"hljs-string\">'DELETE /repos/{owner}/{repo}/vulnerability-alerts'</span>, {\n  <span class=\"hljs-attr\">owner</span>: <span class=\"hljs-string\">'octocat'</span>,\n  <span class=\"hljs-attr\">repo</span>: <span class=\"hljs-string\">'hello-world'</span>,\n  <span class=\"hljs-attr\">mediaType</span>: {\n    <span class=\"hljs-attr\">previews</span>: [\n      <span class=\"hljs-string\">'dorian'</span>\n    ]\n  }\n})\n</code></pre>"
-      }
-    ],
-    "summary": "Disable vulnerability alerts",
-    "description": "Disables dependency alerts and the dependency graph for a repository. The authenticated user must have admin access to the repository. For more information, see \"[About security alerts for vulnerable dependencies](https://help.github.com/en/articles/about-security-alerts-for-vulnerable-dependencies)\".",
-    "tags": [
-      "repos"
-    ],
-    "operationId": "repos/disable-vulnerability-alerts",
-    "externalDocs": {
-      "description": "API method documentation",
-      "url": "https://docs.github.com/github-ae@latest/rest/reference/repos#disable-vulnerability-alerts"
-    },
-    "x-github": {
-      "githubCloudOnly": false,
-      "enabledForGitHubApps": true,
-      "previews": [
-        {
-          "required": true,
-          "name": "dorian",
-          "note": "Enabling and disabling dependency alerts for a repository using the REST API is currently available for developers to preview. To access these new endpoints during the preview period, you must provide a custom [media type](https://docs.github.com/github-ae@latest/rest/overview/media-types) in the `Accept` header:\n```shell\napplication/vnd.github.dorian-preview+json\n```",
-          "html": "<p>Enabling and disabling dependency alerts for a repository using the REST API is currently available for developers to preview. To access these new endpoints during the preview period, you must provide a custom <a href=\"https://docs.github.com/github-ae@latest/rest/overview/media-types\">media type</a> in the <code>Accept</code> header:</p>\n<pre><code class=\"hljs language-shell\">application/vnd.github.dorian-preview+json</code></pre>"
-        }
-      ],
-      "category": "repos",
-      "subcategory": null
-    },
-    "slug": "disable-vulnerability-alerts",
-    "category": "repos",
-    "categoryLabel": "Repos",
-    "notes": [],
-    "responses": [
-      {
-        "httpStatusCode": "204",
-        "httpStatusMessage": "No Content",
-        "description": "Response"
-      }
-    ],
-    "bodyParameters": [],
-    "descriptionHTML": "<p>Disables dependency alerts and the dependency graph for a repository. The authenticated user must have admin access to the repository. For more information, see \"<a href=\"https://help.github.com/en/articles/about-security-alerts-for-vulnerable-dependencies\">About security alerts for vulnerable dependencies</a>\".</p>"
   },
   {
     "verb": "get",

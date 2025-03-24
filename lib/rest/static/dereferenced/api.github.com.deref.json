@@ -22105,6 +22105,10 @@
                       "deploy_key_fingerprint": {
                         "type": "string"
                       },
+                      "_document_id": {
+                        "type": "string",
+                        "description": "A unique identifier for an audit event."
+                      },
                       "emoji": {
                         "type": "string"
                       },
@@ -22191,6 +22195,7 @@
                         "action": "team.add_member",
                         "actor": "octocat",
                         "created_at": 1606929874512,
+                        "_document_id": "xJJFlFOhQ6b-5vaAFy9Rjw",
                         "org": "octo-corp",
                         "team": "octo-corp/example-team",
                         "user": "monalisa"
@@ -22200,6 +22205,7 @@
                         "action": "org.create",
                         "actor": "octocat",
                         "created_at": 1606507117008,
+                        "_document_id": "Vqvg6kZ4MYqwWRKFDzlMoQ",
                         "org": "octocat-test-org"
                       },
                       {
@@ -22207,6 +22213,7 @@
                         "action": "repo.destroy",
                         "actor": "monalisa",
                         "created_at": 1605719148837,
+                        "_document_id": "LwW2vpJZCDS-WUmo9Z-ifw",
                         "org": "mona-org",
                         "repo": "mona-org/mona-test-repo",
                         "visibility": "private"
@@ -59102,6 +59109,10 @@
                       "deploy_key_fingerprint": {
                         "type": "string"
                       },
+                      "_document_id": {
+                        "type": "string",
+                        "description": "A unique identifier for an audit event."
+                      },
                       "emoji": {
                         "type": "string"
                       },
@@ -59188,6 +59199,7 @@
                         "action": "team.add_member",
                         "actor": "octocat",
                         "created_at": 1606929874512,
+                        "_document_id": "xJJFlFOhQ6b-5vaAFy9Rjw",
                         "org": "octo-corp",
                         "team": "octo-corp/example-team",
                         "user": "monalisa"
@@ -59197,6 +59209,7 @@
                         "action": "org.create",
                         "actor": "octocat",
                         "created_at": 1606507117008,
+                        "_document_id": "Vqvg6kZ4MYqwWRKFDzlMoQ",
                         "org": "octocat-test-org"
                       },
                       {
@@ -59204,6 +59217,7 @@
                         "action": "repo.destroy",
                         "actor": "monalisa",
                         "created_at": 1605719148837,
+                        "_document_id": "LwW2vpJZCDS-WUmo9Z-ifw",
                         "org": "mona-org",
                         "repo": "mona-org/mona-test-repo",
                         "visibility": "private"
@@ -123347,7 +123361,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -127103,7 +127117,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -127158,7 +127172,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -127412,6 +127426,125 @@
         }
       }
     },
+    "/repos/{owner}/{repo}/actions/runs/{run_id}/approve": {
+      "post": {
+        "summary": "Approve a workflow run for a fork pull request",
+        "description": "**Note:** This endpoint is currently in beta and is subject to change.\n\nApproves a workflow run for a pull request from a public fork of a first time contributor. For more information, see [\"Approving workflow runs from public forks](https://docs.github.com/actions/managing-workflow-runs/approving-workflow-runs-from-public-forks).\"\n\nYou must authenticate using an access token with the `repo` scope to use this endpoint. GitHub Apps must have the `actions:write` permission to use this endpoint.",
+        "tags": [
+          "actions"
+        ],
+        "operationId": "actions/approve-workflow-run",
+        "externalDocs": {
+          "description": "API method documentation",
+          "url": "https://docs.github.com/rest/reference/actions#approve-a-workflow-run-for-a-fork-pull-request"
+        },
+        "parameters": [
+          {
+            "name": "owner",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "repo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "run_id",
+            "description": "The id of the workflow run.",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Empty Object",
+                  "description": "An object without any properties.",
+                  "type": "object",
+                  "properties": {
+                  },
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Resource not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Basic Error",
+                  "description": "Basic Error",
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    },
+                    "documentation_url": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Basic Error",
+                  "description": "Basic Error",
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    },
+                    "documentation_url": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-github": {
+          "githubCloudOnly": false,
+          "enabledForGitHubApps": true,
+          "previews": [
+
+          ],
+          "category": "actions",
+          "subcategory": "workflow-runs"
+        }
+      }
+    },
     "/repos/{owner}/{repo}/actions/runs/{run_id}/artifacts": {
       "get": {
         "summary": "List workflow run artifacts",
@@ -127443,7 +127576,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -127640,7 +127773,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -127705,7 +127838,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -128071,7 +128204,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -128132,7 +128265,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -128187,7 +128320,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -128577,7 +128710,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -129198,7 +129331,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -129263,7 +129396,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -183229,6 +183362,29 @@
                             }
                           ]
                         },
+                        "code_of_conduct_file": {
+                          "nullable": true,
+                          "allOf": [
+                            {
+                              "title": "Community Health File",
+                              "type": "object",
+                              "properties": {
+                                "url": {
+                                  "type": "string",
+                                  "format": "uri"
+                                },
+                                "html_url": {
+                                  "type": "string",
+                                  "format": "uri"
+                                }
+                              },
+                              "required": [
+                                "url",
+                                "html_url"
+                              ]
+                            }
+                          ]
+                        },
                         "license": {
                           "nullable": true,
                           "allOf": [
@@ -183370,6 +183526,7 @@
                       },
                       "required": [
                         "code_of_conduct",
+                        "code_of_conduct_file",
                         "license",
                         "contributing",
                         "readme",
@@ -183407,6 +183564,10 @@
                           "name": "Contributor Covenant",
                           "key": "contributor_covenant",
                           "url": "https://api.github.com/codes_of_conduct/contributor_covenant",
+                          "html_url": "https://github.com/octocat/Hello-World/blob/master/CODE_OF_CONDUCT.md"
+                        },
+                        "code_of_conduct_file": {
+                          "url": "https://api.github.com/repos/octocat/Hello-World/contents/CODE_OF_CONDUCT.md",
                           "html_url": "https://github.com/octocat/Hello-World/blob/master/CODE_OF_CONDUCT.md"
                         },
                         "contributing": {

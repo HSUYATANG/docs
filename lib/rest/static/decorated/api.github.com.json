@@ -9390,7 +9390,7 @@
         "httpStatusCode": "200",
         "httpStatusMessage": "OK",
         "description": "Response",
-        "payload": "<pre><code class=\"hljs language-json\">[\n  {\n    <span class=\"hljs-attr\">\"@timestamp\"</span>: <span class=\"hljs-number\">1606929874512</span>,\n    <span class=\"hljs-attr\">\"action\"</span>: <span class=\"hljs-string\">\"team.add_member\"</span>,\n    <span class=\"hljs-attr\">\"actor\"</span>: <span class=\"hljs-string\">\"octocat\"</span>,\n    <span class=\"hljs-attr\">\"created_at\"</span>: <span class=\"hljs-number\">1606929874512</span>,\n    <span class=\"hljs-attr\">\"org\"</span>: <span class=\"hljs-string\">\"octo-corp\"</span>,\n    <span class=\"hljs-attr\">\"team\"</span>: <span class=\"hljs-string\">\"octo-corp/example-team\"</span>,\n    <span class=\"hljs-attr\">\"user\"</span>: <span class=\"hljs-string\">\"monalisa\"</span>\n  },\n  {\n    <span class=\"hljs-attr\">\"@timestamp\"</span>: <span class=\"hljs-number\">1606507117008</span>,\n    <span class=\"hljs-attr\">\"action\"</span>: <span class=\"hljs-string\">\"org.create\"</span>,\n    <span class=\"hljs-attr\">\"actor\"</span>: <span class=\"hljs-string\">\"octocat\"</span>,\n    <span class=\"hljs-attr\">\"created_at\"</span>: <span class=\"hljs-number\">1606507117008</span>,\n    <span class=\"hljs-attr\">\"org\"</span>: <span class=\"hljs-string\">\"octocat-test-org\"</span>\n  },\n  {\n    <span class=\"hljs-attr\">\"@timestamp\"</span>: <span class=\"hljs-number\">1605719148837</span>,\n    <span class=\"hljs-attr\">\"action\"</span>: <span class=\"hljs-string\">\"repo.destroy\"</span>,\n    <span class=\"hljs-attr\">\"actor\"</span>: <span class=\"hljs-string\">\"monalisa\"</span>,\n    <span class=\"hljs-attr\">\"created_at\"</span>: <span class=\"hljs-number\">1605719148837</span>,\n    <span class=\"hljs-attr\">\"org\"</span>: <span class=\"hljs-string\">\"mona-org\"</span>,\n    <span class=\"hljs-attr\">\"repo\"</span>: <span class=\"hljs-string\">\"mona-org/mona-test-repo\"</span>,\n    <span class=\"hljs-attr\">\"visibility\"</span>: <span class=\"hljs-string\">\"private\"</span>\n  }\n]\n</code></pre>"
+        "payload": "<pre><code class=\"hljs language-json\">[\n  {\n    <span class=\"hljs-attr\">\"@timestamp\"</span>: <span class=\"hljs-number\">1606929874512</span>,\n    <span class=\"hljs-attr\">\"action\"</span>: <span class=\"hljs-string\">\"team.add_member\"</span>,\n    <span class=\"hljs-attr\">\"actor\"</span>: <span class=\"hljs-string\">\"octocat\"</span>,\n    <span class=\"hljs-attr\">\"created_at\"</span>: <span class=\"hljs-number\">1606929874512</span>,\n    <span class=\"hljs-attr\">\"_document_id\"</span>: <span class=\"hljs-string\">\"xJJFlFOhQ6b-5vaAFy9Rjw\"</span>,\n    <span class=\"hljs-attr\">\"org\"</span>: <span class=\"hljs-string\">\"octo-corp\"</span>,\n    <span class=\"hljs-attr\">\"team\"</span>: <span class=\"hljs-string\">\"octo-corp/example-team\"</span>,\n    <span class=\"hljs-attr\">\"user\"</span>: <span class=\"hljs-string\">\"monalisa\"</span>\n  },\n  {\n    <span class=\"hljs-attr\">\"@timestamp\"</span>: <span class=\"hljs-number\">1606507117008</span>,\n    <span class=\"hljs-attr\">\"action\"</span>: <span class=\"hljs-string\">\"org.create\"</span>,\n    <span class=\"hljs-attr\">\"actor\"</span>: <span class=\"hljs-string\">\"octocat\"</span>,\n    <span class=\"hljs-attr\">\"created_at\"</span>: <span class=\"hljs-number\">1606507117008</span>,\n    <span class=\"hljs-attr\">\"_document_id\"</span>: <span class=\"hljs-string\">\"Vqvg6kZ4MYqwWRKFDzlMoQ\"</span>,\n    <span class=\"hljs-attr\">\"org\"</span>: <span class=\"hljs-string\">\"octocat-test-org\"</span>\n  },\n  {\n    <span class=\"hljs-attr\">\"@timestamp\"</span>: <span class=\"hljs-number\">1605719148837</span>,\n    <span class=\"hljs-attr\">\"action\"</span>: <span class=\"hljs-string\">\"repo.destroy\"</span>,\n    <span class=\"hljs-attr\">\"actor\"</span>: <span class=\"hljs-string\">\"monalisa\"</span>,\n    <span class=\"hljs-attr\">\"created_at\"</span>: <span class=\"hljs-number\">1605719148837</span>,\n    <span class=\"hljs-attr\">\"_document_id\"</span>: <span class=\"hljs-string\">\"LwW2vpJZCDS-WUmo9Z-ifw\"</span>,\n    <span class=\"hljs-attr\">\"org\"</span>: <span class=\"hljs-string\">\"mona-org\"</span>,\n    <span class=\"hljs-attr\">\"repo\"</span>: <span class=\"hljs-string\">\"mona-org/mona-test-repo\"</span>,\n    <span class=\"hljs-attr\">\"visibility\"</span>: <span class=\"hljs-string\">\"private\"</span>\n  }\n]\n</code></pre>"
       }
     ]
   },
@@ -17908,7 +17908,7 @@
         "httpStatusCode": "200",
         "httpStatusMessage": "OK",
         "description": "Response",
-        "payload": "<pre><code class=\"hljs language-json\">[\n  {\n    <span class=\"hljs-attr\">\"@timestamp\"</span>: <span class=\"hljs-number\">1606929874512</span>,\n    <span class=\"hljs-attr\">\"action\"</span>: <span class=\"hljs-string\">\"team.add_member\"</span>,\n    <span class=\"hljs-attr\">\"actor\"</span>: <span class=\"hljs-string\">\"octocat\"</span>,\n    <span class=\"hljs-attr\">\"created_at\"</span>: <span class=\"hljs-number\">1606929874512</span>,\n    <span class=\"hljs-attr\">\"org\"</span>: <span class=\"hljs-string\">\"octo-corp\"</span>,\n    <span class=\"hljs-attr\">\"team\"</span>: <span class=\"hljs-string\">\"octo-corp/example-team\"</span>,\n    <span class=\"hljs-attr\">\"user\"</span>: <span class=\"hljs-string\">\"monalisa\"</span>\n  },\n  {\n    <span class=\"hljs-attr\">\"@timestamp\"</span>: <span class=\"hljs-number\">1606507117008</span>,\n    <span class=\"hljs-attr\">\"action\"</span>: <span class=\"hljs-string\">\"org.create\"</span>,\n    <span class=\"hljs-attr\">\"actor\"</span>: <span class=\"hljs-string\">\"octocat\"</span>,\n    <span class=\"hljs-attr\">\"created_at\"</span>: <span class=\"hljs-number\">1606507117008</span>,\n    <span class=\"hljs-attr\">\"org\"</span>: <span class=\"hljs-string\">\"octocat-test-org\"</span>\n  },\n  {\n    <span class=\"hljs-attr\">\"@timestamp\"</span>: <span class=\"hljs-number\">1605719148837</span>,\n    <span class=\"hljs-attr\">\"action\"</span>: <span class=\"hljs-string\">\"repo.destroy\"</span>,\n    <span class=\"hljs-attr\">\"actor\"</span>: <span class=\"hljs-string\">\"monalisa\"</span>,\n    <span class=\"hljs-attr\">\"created_at\"</span>: <span class=\"hljs-number\">1605719148837</span>,\n    <span class=\"hljs-attr\">\"org\"</span>: <span class=\"hljs-string\">\"mona-org\"</span>,\n    <span class=\"hljs-attr\">\"repo\"</span>: <span class=\"hljs-string\">\"mona-org/mona-test-repo\"</span>,\n    <span class=\"hljs-attr\">\"visibility\"</span>: <span class=\"hljs-string\">\"private\"</span>\n  }\n]\n</code></pre>"
+        "payload": "<pre><code class=\"hljs language-json\">[\n  {\n    <span class=\"hljs-attr\">\"@timestamp\"</span>: <span class=\"hljs-number\">1606929874512</span>,\n    <span class=\"hljs-attr\">\"action\"</span>: <span class=\"hljs-string\">\"team.add_member\"</span>,\n    <span class=\"hljs-attr\">\"actor\"</span>: <span class=\"hljs-string\">\"octocat\"</span>,\n    <span class=\"hljs-attr\">\"created_at\"</span>: <span class=\"hljs-number\">1606929874512</span>,\n    <span class=\"hljs-attr\">\"_document_id\"</span>: <span class=\"hljs-string\">\"xJJFlFOhQ6b-5vaAFy9Rjw\"</span>,\n    <span class=\"hljs-attr\">\"org\"</span>: <span class=\"hljs-string\">\"octo-corp\"</span>,\n    <span class=\"hljs-attr\">\"team\"</span>: <span class=\"hljs-string\">\"octo-corp/example-team\"</span>,\n    <span class=\"hljs-attr\">\"user\"</span>: <span class=\"hljs-string\">\"monalisa\"</span>\n  },\n  {\n    <span class=\"hljs-attr\">\"@timestamp\"</span>: <span class=\"hljs-number\">1606507117008</span>,\n    <span class=\"hljs-attr\">\"action\"</span>: <span class=\"hljs-string\">\"org.create\"</span>,\n    <span class=\"hljs-attr\">\"actor\"</span>: <span class=\"hljs-string\">\"octocat\"</span>,\n    <span class=\"hljs-attr\">\"created_at\"</span>: <span class=\"hljs-number\">1606507117008</span>,\n    <span class=\"hljs-attr\">\"_document_id\"</span>: <span class=\"hljs-string\">\"Vqvg6kZ4MYqwWRKFDzlMoQ\"</span>,\n    <span class=\"hljs-attr\">\"org\"</span>: <span class=\"hljs-string\">\"octocat-test-org\"</span>\n  },\n  {\n    <span class=\"hljs-attr\">\"@timestamp\"</span>: <span class=\"hljs-number\">1605719148837</span>,\n    <span class=\"hljs-attr\">\"action\"</span>: <span class=\"hljs-string\">\"repo.destroy\"</span>,\n    <span class=\"hljs-attr\">\"actor\"</span>: <span class=\"hljs-string\">\"monalisa\"</span>,\n    <span class=\"hljs-attr\">\"created_at\"</span>: <span class=\"hljs-number\">1605719148837</span>,\n    <span class=\"hljs-attr\">\"_document_id\"</span>: <span class=\"hljs-string\">\"LwW2vpJZCDS-WUmo9Z-ifw\"</span>,\n    <span class=\"hljs-attr\">\"org\"</span>: <span class=\"hljs-string\">\"mona-org\"</span>,\n    <span class=\"hljs-attr\">\"repo\"</span>: <span class=\"hljs-string\">\"mona-org/mona-test-repo\"</span>,\n    <span class=\"hljs-attr\">\"visibility\"</span>: <span class=\"hljs-string\">\"private\"</span>\n  }\n]\n</code></pre>"
       }
     ]
   },
@@ -33579,13 +33579,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -33659,13 +33659,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -33738,13 +33738,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -33794,6 +33794,95 @@
     ]
   },
   {
+    "verb": "post",
+    "requestPath": "/repos/{owner}/{repo}/actions/runs/{run_id}/approve",
+    "serverUrl": "https://api.github.com",
+    "parameters": [
+      {
+        "name": "owner",
+        "in": "path",
+        "required": true,
+        "schema": {
+          "type": "string"
+        },
+        "descriptionHTML": ""
+      },
+      {
+        "name": "repo",
+        "in": "path",
+        "required": true,
+        "schema": {
+          "type": "string"
+        },
+        "descriptionHTML": ""
+      },
+      {
+        "name": "run_id",
+        "description": "The id of the workflow run.",
+        "in": "path",
+        "required": true,
+        "schema": {
+          "type": "integer"
+        },
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
+      }
+    ],
+    "x-codeSamples": [
+      {
+        "lang": "Shell",
+        "source": "curl \\\n  -X POST \\\n  -H \"Accept: application/vnd.github.v3+json\" \\\n  https://api.github.com/repos/octocat/hello-world/actions/runs/42/approve",
+        "html": "<pre><code class=\"hljs language-shell\">curl \\\n  -X POST \\\n  -H \"Accept: application/vnd.github.v3+json\" \\\n  https://api.github.com/repos/octocat/hello-world/actions/runs/42/approve</code></pre>"
+      },
+      {
+        "lang": "JavaScript",
+        "source": "await octokit.request('POST /repos/{owner}/{repo}/actions/runs/{run_id}/approve', {\n  owner: 'octocat',\n  repo: 'hello-world',\n  run_id: 42\n})",
+        "html": "<pre><code class=\"hljs language-javascript\"><span class=\"hljs-keyword\">await</span> octokit.request(<span class=\"hljs-string\">'POST /repos/{owner}/{repo}/actions/runs/{run_id}/approve'</span>, {\n  <span class=\"hljs-attr\">owner</span>: <span class=\"hljs-string\">'octocat'</span>,\n  <span class=\"hljs-attr\">repo</span>: <span class=\"hljs-string\">'hello-world'</span>,\n  <span class=\"hljs-attr\">run_id</span>: <span class=\"hljs-number\">42</span>\n})\n</code></pre>"
+      }
+    ],
+    "summary": "Approve a workflow run for a fork pull request",
+    "description": "**Note:** This endpoint is currently in beta and is subject to change.\n\nApproves a workflow run for a pull request from a public fork of a first time contributor. For more information, see [\"Approving workflow runs from public forks](https://docs.github.com/actions/managing-workflow-runs/approving-workflow-runs-from-public-forks).\"\n\nYou must authenticate using an access token with the `repo` scope to use this endpoint. GitHub Apps must have the `actions:write` permission to use this endpoint.",
+    "tags": [
+      "actions"
+    ],
+    "operationId": "actions/approve-workflow-run",
+    "externalDocs": {
+      "description": "API method documentation",
+      "url": "https://docs.github.com/rest/reference/actions#approve-a-workflow-run-for-a-fork-pull-request"
+    },
+    "x-github": {
+      "githubCloudOnly": false,
+      "enabledForGitHubApps": true,
+      "previews": [],
+      "category": "actions",
+      "subcategory": "workflow-runs"
+    },
+    "slug": "approve-a-workflow-run-for-a-fork-pull-request",
+    "category": "actions",
+    "categoryLabel": "Actions",
+    "subcategory": "workflow-runs",
+    "subcategoryLabel": "Workflow runs",
+    "notes": [],
+    "responses": [
+      {
+        "httpStatusCode": "201",
+        "httpStatusMessage": "Created",
+        "description": "Response"
+      },
+      {
+        "httpStatusCode": "403",
+        "httpStatusMessage": "Forbidden",
+        "description": "Forbidden"
+      },
+      {
+        "httpStatusCode": "404",
+        "httpStatusMessage": "Not Found",
+        "description": "Resource not found"
+      }
+    ],
+    "bodyParameters": [],
+    "descriptionHTML": "<p><strong>Note:</strong> This endpoint is currently in beta and is subject to change.</p>\n<p>Approves a workflow run for a pull request from a public fork of a first time contributor. For more information, see <a href=\"https://docs.github.com/actions/managing-workflow-runs/approving-workflow-runs-from-public-forks\">\"Approving workflow runs from public forks</a>.\"</p>\n<p>You must authenticate using an access token with the <code>repo</code> scope to use this endpoint. GitHub Apps must have the <code>actions:write</code> permission to use this endpoint.</p>"
+  },
+  {
     "verb": "get",
     "requestPath": "/repos/{owner}/{repo}/actions/runs/{run_id}/artifacts",
     "serverUrl": "https://api.github.com",
@@ -33818,13 +33907,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       },
       {
         "name": "per_page",
@@ -33918,13 +34007,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -33997,13 +34086,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       },
       {
         "name": "filter",
@@ -34112,13 +34201,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -34191,13 +34280,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -34270,13 +34359,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -34350,13 +34439,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -34529,13 +34618,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -34608,13 +34697,13 @@
       },
       {
         "name": "run_id",
-        "description": "The id of the workflow run",
+        "description": "The id of the workflow run.",
         "in": "path",
         "required": true,
         "schema": {
           "type": "integer"
         },
-        "descriptionHTML": "<p>The id of the workflow run</p>"
+        "descriptionHTML": "<p>The id of the workflow run.</p>"
       }
     ],
     "x-codeSamples": [
@@ -50141,7 +50230,7 @@
         "httpStatusCode": "200",
         "httpStatusMessage": "OK",
         "description": "Response",
-        "payload": "<pre><code class=\"hljs language-json\">{\n  <span class=\"hljs-attr\">\"health_percentage\"</span>: <span class=\"hljs-number\">100</span>,\n  <span class=\"hljs-attr\">\"description\"</span>: <span class=\"hljs-string\">\"My first repository on GitHub!\"</span>,\n  <span class=\"hljs-attr\">\"documentation\"</span>: <span class=\"hljs-literal\">null</span>,\n  <span class=\"hljs-attr\">\"files\"</span>: {\n    <span class=\"hljs-attr\">\"code_of_conduct\"</span>: {\n      <span class=\"hljs-attr\">\"name\"</span>: <span class=\"hljs-string\">\"Contributor Covenant\"</span>,\n      <span class=\"hljs-attr\">\"key\"</span>: <span class=\"hljs-string\">\"contributor_covenant\"</span>,\n      <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/codes_of_conduct/contributor_covenant\"</span>,\n      <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World/blob/master/CODE_OF_CONDUCT.md\"</span>\n    },\n    <span class=\"hljs-attr\">\"contributing\"</span>: {\n      <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/contents/CONTRIBUTING\"</span>,\n      <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World/blob/master/CONTRIBUTING\"</span>\n    },\n    <span class=\"hljs-attr\">\"issue_template\"</span>: {\n      <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/contents/ISSUE_TEMPLATE\"</span>,\n      <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World/blob/master/ISSUE_TEMPLATE\"</span>\n    },\n    <span class=\"hljs-attr\">\"pull_request_template\"</span>: {\n      <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/contents/PULL_REQUEST_TEMPLATE\"</span>,\n      <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World/blob/master/PULL_REQUEST_TEMPLATE\"</span>\n    },\n    <span class=\"hljs-attr\">\"license\"</span>: {\n      <span class=\"hljs-attr\">\"name\"</span>: <span class=\"hljs-string\">\"MIT License\"</span>,\n      <span class=\"hljs-attr\">\"key\"</span>: <span class=\"hljs-string\">\"mit\"</span>,\n      <span class=\"hljs-attr\">\"spdx_id\"</span>: <span class=\"hljs-string\">\"MIT\"</span>,\n      <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/licenses/mit\"</span>,\n      <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World/blob/master/LICENSE\"</span>,\n      <span class=\"hljs-attr\">\"node_id\"</span>: <span class=\"hljs-string\">\"MDc6TGljZW5zZW1pdA==\"</span>\n    },\n    <span class=\"hljs-attr\">\"readme\"</span>: {\n      <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/contents/README.md\"</span>,\n      <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World/blob/master/README.md\"</span>\n    }\n  },\n  <span class=\"hljs-attr\">\"updated_at\"</span>: <span class=\"hljs-string\">\"2017-02-28T19:09:29Z\"</span>,\n  <span class=\"hljs-attr\">\"content_reports_enabled\"</span>: <span class=\"hljs-literal\">true</span>\n}\n</code></pre>"
+        "payload": "<pre><code class=\"hljs language-json\">{\n  <span class=\"hljs-attr\">\"health_percentage\"</span>: <span class=\"hljs-number\">100</span>,\n  <span class=\"hljs-attr\">\"description\"</span>: <span class=\"hljs-string\">\"My first repository on GitHub!\"</span>,\n  <span class=\"hljs-attr\">\"documentation\"</span>: <span class=\"hljs-literal\">null</span>,\n  <span class=\"hljs-attr\">\"files\"</span>: {\n    <span class=\"hljs-attr\">\"code_of_conduct\"</span>: {\n      <span class=\"hljs-attr\">\"name\"</span>: <span class=\"hljs-string\">\"Contributor Covenant\"</span>,\n      <span class=\"hljs-attr\">\"key\"</span>: <span class=\"hljs-string\">\"contributor_covenant\"</span>,\n      <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/codes_of_conduct/contributor_covenant\"</span>,\n      <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World/blob/master/CODE_OF_CONDUCT.md\"</span>\n    },\n    <span class=\"hljs-attr\">\"code_of_conduct_file\"</span>: {\n      <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/contents/CODE_OF_CONDUCT.md\"</span>,\n      <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World/blob/master/CODE_OF_CONDUCT.md\"</span>\n    },\n    <span class=\"hljs-attr\">\"contributing\"</span>: {\n      <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/contents/CONTRIBUTING\"</span>,\n      <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World/blob/master/CONTRIBUTING\"</span>\n    },\n    <span class=\"hljs-attr\">\"issue_template\"</span>: {\n      <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/contents/ISSUE_TEMPLATE\"</span>,\n      <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World/blob/master/ISSUE_TEMPLATE\"</span>\n    },\n    <span class=\"hljs-attr\">\"pull_request_template\"</span>: {\n      <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/contents/PULL_REQUEST_TEMPLATE\"</span>,\n      <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World/blob/master/PULL_REQUEST_TEMPLATE\"</span>\n    },\n    <span class=\"hljs-attr\">\"license\"</span>: {\n      <span class=\"hljs-attr\">\"name\"</span>: <span class=\"hljs-string\">\"MIT License\"</span>,\n      <span class=\"hljs-attr\">\"key\"</span>: <span class=\"hljs-string\">\"mit\"</span>,\n      <span class=\"hljs-attr\">\"spdx_id\"</span>: <span class=\"hljs-string\">\"MIT\"</span>,\n      <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/licenses/mit\"</span>,\n      <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World/blob/master/LICENSE\"</span>,\n      <span class=\"hljs-attr\">\"node_id\"</span>: <span class=\"hljs-string\">\"MDc6TGljZW5zZW1pdA==\"</span>\n    },\n    <span class=\"hljs-attr\">\"readme\"</span>: {\n      <span class=\"hljs-attr\">\"url\"</span>: <span class=\"hljs-string\">\"https://api.github.com/repos/octocat/Hello-World/contents/README.md\"</span>,\n      <span class=\"hljs-attr\">\"html_url\"</span>: <span class=\"hljs-string\">\"https://github.com/octocat/Hello-World/blob/master/README.md\"</span>\n    }\n  },\n  <span class=\"hljs-attr\">\"updated_at\"</span>: <span class=\"hljs-string\">\"2017-02-28T19:09:29Z\"</span>,\n  <span class=\"hljs-attr\">\"content_reports_enabled\"</span>: <span class=\"hljs-literal\">true</span>\n}\n</code></pre>"
       }
     ]
   },

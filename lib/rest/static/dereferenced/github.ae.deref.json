@@ -92643,7 +92643,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -96399,7 +96399,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -96454,7 +96454,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -96651,7 +96651,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -96716,7 +96716,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -97082,7 +97082,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -97143,7 +97143,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -97198,7 +97198,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -97263,7 +97263,7 @@
           },
           {
             "name": "run_id",
-            "description": "The id of the workflow run",
+            "description": "The id of the workflow run.",
             "in": "path",
             "required": true,
             "schema": {
@@ -258605,104 +258605,6 @@
           "enabledForGitHubApps": true,
           "previews": [
 
-          ],
-          "category": "repos",
-          "subcategory": null
-        }
-      }
-    },
-    "/repos/{owner}/{repo}/vulnerability-alerts": {
-      "put": {
-        "summary": "Enable vulnerability alerts",
-        "description": "Enables dependency alerts and the dependency graph for a repository. The authenticated user must have admin access to the repository. For more information, see \"[About security alerts for vulnerable dependencies](https://help.github.com/en/articles/about-security-alerts-for-vulnerable-dependencies)\".",
-        "tags": [
-          "repos"
-        ],
-        "operationId": "repos/enable-vulnerability-alerts",
-        "externalDocs": {
-          "description": "API method documentation",
-          "url": "https://docs.github.com/github-ae@latest/rest/reference/repos#enable-vulnerability-alerts"
-        },
-        "parameters": [
-          {
-            "name": "owner",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "repo",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "204": {
-            "description": "Response"
-          }
-        },
-        "x-github": {
-          "githubCloudOnly": false,
-          "enabledForGitHubApps": true,
-          "previews": [
-            {
-              "required": true,
-              "name": "dorian",
-              "note": "Enabling and disabling dependency alerts for a repository using the REST API is currently available for developers to preview. To access these new endpoints during the preview period, you must provide a custom [media type](https://docs.github.com/github-ae@latest/rest/overview/media-types) in the `Accept` header:\n```shell\napplication/vnd.github.dorian-preview+json\n```"
-            }
-          ],
-          "category": "repos",
-          "subcategory": null
-        }
-      },
-      "delete": {
-        "summary": "Disable vulnerability alerts",
-        "description": "Disables dependency alerts and the dependency graph for a repository. The authenticated user must have admin access to the repository. For more information, see \"[About security alerts for vulnerable dependencies](https://help.github.com/en/articles/about-security-alerts-for-vulnerable-dependencies)\".",
-        "tags": [
-          "repos"
-        ],
-        "operationId": "repos/disable-vulnerability-alerts",
-        "externalDocs": {
-          "description": "API method documentation",
-          "url": "https://docs.github.com/github-ae@latest/rest/reference/repos#disable-vulnerability-alerts"
-        },
-        "parameters": [
-          {
-            "name": "owner",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "repo",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "204": {
-            "description": "Response"
-          }
-        },
-        "x-github": {
-          "githubCloudOnly": false,
-          "enabledForGitHubApps": true,
-          "previews": [
-            {
-              "required": true,
-              "name": "dorian",
-              "note": "Enabling and disabling dependency alerts for a repository using the REST API is currently available for developers to preview. To access these new endpoints during the preview period, you must provide a custom [media type](https://docs.github.com/github-ae@latest/rest/overview/media-types) in the `Accept` header:\n```shell\napplication/vnd.github.dorian-preview+json\n```"
-            }
           ],
           "category": "repos",
           "subcategory": null
